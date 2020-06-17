@@ -1,0 +1,97 @@
+QListWidget { border:none; background:#F0F4F7; show-decoration-selected:0; }
+QScrollBar:vertical { width: 2px; }
+
+QListWidget::item { outline: none; }
+QListWidget::item:selected { background-color: #F0F4F7;}
+QListWidget::item:hover:!selected { background-color: #F0F4F7; }
+
+
+QLabel#l_login
+{
+    font-size:17px;
+    margin-bottom:8px;
+}
+
+
+QLineEdit#emailLineEdit,QLineEdit#passwordLineEdit
+{
+    padding:8px;
+    font:16px "Roboto";
+    border:1px solid #ABC0DE;
+}
+
+
+QLineEdit#emailLineEdit:focus,QLineEdit#passwordLineEdit:focus
+{
+     border:2px solid #47AAE4;
+}
+
+
+QPushButton#loginPushbutton
+{
+    border:none;
+    background-color:#395378;
+    border-radius:5px;
+    min-width:100px;
+    min-height:35px;
+    color:#fff;
+    font:12px "Roboto";
+
+    margin-top:10px;
+}
+
+QWidget#ProjectCustomItem
+{
+    background-color:#395378;
+    border-radius:5px;
+}
+
+
+QLabel#imglabel
+{
+    border:none;
+}
+QPushButton#projectsBtn,QPushButton#logoutButton
+{
+      border:none;
+}
+QPushButton#projectsBtn:hover,QPushButton#logoutButton:hover
+{
+    color:#47AAE4;
+}
+
+QWidget#widget_item
+{
+    margin:15px;
+    margin-bottom:0;
+    border-radius:8px;
+    background-color:#fff;
+}
+
+QWidget#widget_item:hover
+{
+    border:2px solid #47AAE4;
+}
+
+QWidget#ProjectEditWindow_widget{background-color:#fff;}
+QPushButton#pushButton_2
+{
+   min-width:50px;
+   font:14px "Roboto";
+    min-height:40px;
+    border:none;
+    background-color:#395378;
+    border-radius:5px;
+    color:#fff;
+
+}
+
+QLineEdit#lineEdit
+{
+    padding 10px;
+    min-height:40px;
+    font:bold 15px "Roboto";
+    border:1px solid #e0e0e0;
+
+}
+
